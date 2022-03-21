@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="更新设置"
+        android:summary="replace">
+        <CheckBoxPreference
+            android:key="prefer_updates"
+            android:title="是否更新"
+            android:summary="打开或关闭数据更新"
+            android:defaultValue="true">
+
+        </CheckBoxPreference>
+        <ListPreference
+            android:dependency="prefer_updates"
+            android:defaultValue="1000"
+            android:key="update_interval"
+            android:title="更新时间"
+            android:summary="定义数据更新的时间间隔"
+            android:entries="@array/updateInterval"
+            android:entryValues="@array/updateIntervalValues"
+            ></ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="second_category"
+        android:title="欢迎信息">
+        <EditTextPreference
+            android:key="welcome_message"
+            android:title="设置欢迎信息"
+            android:summary="定义需要显示的欢迎信息"
+            android:defaultValue="你好，android"
+            android:dialogMessage="欢迎信息">
+
+        </EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
+
+
+
+
+
+
+
+
+
+
+
+
+

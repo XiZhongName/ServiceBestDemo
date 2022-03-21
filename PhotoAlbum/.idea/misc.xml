@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/drawable/ic_baseline_add_photo_alternate_24.xml" value="0.2388888888888889" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2388888888888889" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/drawable/ic_baseline_select_all_24.xml" value="0.25925925925925924" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/activity_album.xml" value="0.375" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/activity_main.xml" value="0.16590678824721378" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/activity_photo.xml" value="0.335" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/activity_preview.xml" value="0.24592391304347827" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/activity_register.xml" value="0.18206521739130435" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/dialog.xml" value="0.21467391304347827" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/dialog_edittext.xml" value="0.20923913043478262" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/item_pic.xml" value="0.335" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/iv_pic.xml" value="0.24139492753623187" />
+        <entry key="..\:/AsProject/PhotoAlbum/app/src/main/res/layout/recycler_item.xml" value="0.45" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

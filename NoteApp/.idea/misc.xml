@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AsProject/NoteApp/app/src/main/res/drawable/edit_background.xml" value="0.23703703703703705" />
+        <entry key="..\:/AsProject/NoteApp/app/src/main/res/layout/activity_add.xml" value="0.18206521739130435" />
+        <entry key="..\:/AsProject/NoteApp/app/src/main/res/layout/activity_edit.xml" value="0.18840579710144928" />
+        <entry key="..\:/AsProject/NoteApp/app/src/main/res/layout/activity_main.xml" value="0.18840579710144928" />
+        <entry key="..\:/AsProject/NoteApp/app/src/main/res/layout/item_menu_grid.xml" value="0.17572463768115942" />
+        <entry key="..\:/AsProject/NoteApp/app/src/main/res/layout/list_item_dialog_layout.xml" value="0.17572463768115942" />
+        <entry key="..\:/AsProject/NoteApp/app/src/main/res/layout/list_item_layout.xml" value="0.25" />
+        <entry key="..\:/AsProject/NoteApp/app/src/main/res/menu/menu_main.xml" value="0.325" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:text="屏幕正中"
+        android:background="#ff0000"
+       android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:text="屏幕左上"
+        android:background="#00ff00"
+       android:layout_above="@+id/center"
+        android:layout_toLeftOf="@+id/center"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:text="屏幕右上"
+        android:background="#0000ff"
+        android:layout_above="@+id/center"
+        android:layout_toRightOf="@+id/center"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:text="屏幕左下"
+        android:background="#00ff00"
+        android:layout_below="@+id/center"
+        android:layout_toLeftOf="@+id/center"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:text="屏幕右下"
+        android:background="#0000ff"
+        android:layout_below="@+id/center"
+        android:layout_toRightOf="@+id/center"
+        />
+
+
+</RelativeLayout>

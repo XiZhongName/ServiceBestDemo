@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="父容器"
+        android:gravity="center"
+        android:background="#B0C9DD"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/center"
+        android:background="#DFCC94"
+        android:gravity="center"
+        android:text="左边" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="右上"
+        android:gravity="center"
+        android:background="#E8A23A"
+        android:layout_above="@+id/center"
+        android:layout_toRightOf="@+id/center"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="#85DCD4"
+        android:gravity="center"
+        android:text="左下"
+        android:layout_below="@+id/center"
+        android:layout_toLeftOf="@+id/center"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="右下角"
+        android:gravity="center"
+        android:background="#B0C9DD"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

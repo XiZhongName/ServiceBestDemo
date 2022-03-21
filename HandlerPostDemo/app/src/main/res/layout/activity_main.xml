@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动"/>
+    <Button
+        android:id="@+id/stop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止"/>
+    <Button
+        android:id="@+id/toast_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提示"/>
+    <Button
+        android:id="@+id/update_progressbar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新进度条"/>
+    <Button
+        android:id="@+id/stop_progressbar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止进度条"/>
+
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+    <ProgressBar
+        android:id="@+id/pgb_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+</LinearLayout>
