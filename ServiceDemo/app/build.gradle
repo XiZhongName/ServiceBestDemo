@@ -3,6 +3,13 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        demo {
+            storePassword 'xx378472152'
+            keyPassword 'xx378472152'
+            keyAlias 'demo'
+        }
+    }
     compileSdk 31
 
     defaultConfig {
@@ -19,6 +26,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.demo
         }
     }
     compileOptions {
@@ -35,4 +43,6 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation "com.jakewharton:butterknife:10.0.0"
+    annotationProcessor  "com.jakewharton:butterknife-compiler:10.0.0"
 }

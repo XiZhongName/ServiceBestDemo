@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TabLayoutDemo2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <!--Tab英文标题小写-->
+    <style name="TabTextAllCapStyle" parent="TextAppearance.Design.Tab">
+        <!--不启用大写-->
+        <item name="textAllCaps">false</item>
+    </style>
+    <!--个人主页主题风格-->
+    <style name="PersonTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#1296db</item>
+        <item name="colorPrimaryDark">#1296db</item>
+        <item name="colorAccent">#1296db</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <!--圆形图片-->
+    <style name="circleImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

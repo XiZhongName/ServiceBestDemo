@@ -10,6 +10,8 @@ import android.os.IBinder;
 import android.view.View;
 import android.widget.Button;
 
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button btn_start,btn_end,btn_bind,btn_unBind;
     private MyService.DownloadBinder downloadBinder;
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);//绑定ButterKnife注解
         btn_start = findViewById(R.id.btn_start);
         btn_end = findViewById(R.id.btn_end);
         btn_bind = findViewById(R.id.btn_bind);
